@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Business logic for the app is stored here",
+  "main": "index.js",
+  "engines": {
+    "node": "8.1.1",
+    "npm": "5.0.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ashwin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "passport": "0.4.0",
+    "passport-google-oauth20": "1.0.0"
+  }
+}
